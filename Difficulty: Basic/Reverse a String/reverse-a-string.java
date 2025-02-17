@@ -26,10 +26,10 @@ class Driver {
 class Solution {
     public static String reverseString(String s) {
         // code here
-        String newStr = "";
+        StringBuilder newStr = new StringBuilder();
         for(int i = s.length()-1;i>=0;i--){
-            newStr+=s.charAt(i);
+            newStr.append(s.charAt(i));
         }
-        return newStr;
+        return newStr.toString();
     }
 }
