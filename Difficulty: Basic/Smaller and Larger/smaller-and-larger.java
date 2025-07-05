@@ -1,17 +1,18 @@
 // User function Template for Java
 
 class Solution {
-        int resultArr[]= {0,0};
     int[] getMoreAndLess(int[] arr, int target) {
         // code here
+        int countGreator =0;
+        int countLesser =0;
         for(int i=0;i<arr.length;i++){
             if(arr[i]<=target){
-                resultArr[0]+=1;
+                countLesser++;
             }
             if(arr[i]>=target){
-                resultArr[1]+=1;
+                countGreator++;
             }
         }
-        return resultArr;
+        return new int[]{countLesser,countGreator};
     }
 }
