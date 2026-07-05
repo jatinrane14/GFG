@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/outermost-parentheses/1">Outermost Parentheses of Primitives</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 14pt;">A <a href="https://www.geeksforgeeks.org/dsa/check-for-balanced-parentheses-in-an-expression/">valid parenthesis</a>&nbsp;string is called primitive if it cannot be split into two non-empty valid parentheses strings.</span></p>
+<p><span style="font-size: 14pt;">Given a valid parentheses string <strong>s</strong>, remove the outermost parentheses from every primitive substring and return the resulting string.</span></p>
+<p><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong><span style="font-size: 14pt;">s = "(()())(())"</span>
+<strong>Output: </strong><span style="font-size: 14pt;">"()()()"</span>
+<strong>Explanation: </strong></span><span style="font-size: 14pt;">The input string is "(()())(())", with primitive decomposition "(()())" + "(())".
+After removing outer parentheses of each part, this is "()()" + "()" = "()()()".</span><span style="font-size: 18px;"><br></span></pre>
+<pre><strong><span style="font-size: 18px;">Input: </span></strong><span style="font-size: 14pt;">s = "()()"<br><strong>Output: </strong>""<br><strong>Explanation: </strong>The input string is "()()", with primitive decomposition "()" + "()".<br>After removing outer parentheses of each part, this is "" + "" = "".</span></pre>
+<p><strong><span style="font-size: 18px;">Constraint:</span></strong><br><span style="font-size: 14pt;">1 ≤ s.size() ≤ 10<sup>5</sup><br>s[i] is either '(' or ')'<br>s is a valid parentheses string.</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Stack</code>&nbsp;
