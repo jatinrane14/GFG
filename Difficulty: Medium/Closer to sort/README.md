@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/closer-to-sort-1587115620/1">Closer to sort</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">You are given an array <strong>arr[]</strong> of distinct positive integers that is closely sorted, and a target element <strong>x</strong>, your task is to find the index of <strong>x</strong> in the array. If <strong>x</strong> is not present, return -1.</span><br><span style="font-size: 18px;"><strong>Closer Sorted</strong>: The first array is sorted, but after sorting some elements are moved to either of the adjacent positions, i.e, maybe to the <strong>arr[i+1]</strong> or <strong>arr[i-1]</strong>.<br><br><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: arr[] = [3 2 10 4 40], x = 2
+<strong>Output</strong>: 1
+<strong>Explanation</strong>: 2 is present at index 1 (0-based indexing) in the given array.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: arr[] = [2 1 4 3], x = 5
+<strong>Output</strong>: -1
+<strong>Explanation</strong>: 5 is not in the array so the output will be -1.</span>
+</pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ arr.size() ≤ 10<sup>6</sup><br>1 ≤ arr[i],x ≤ 10</span><sup><span style="font-size: 15px;">9</span></sup></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Searching</code>&nbsp;<code>Sorting</code>&nbsp;<code>Binary Search</code>&nbsp;
